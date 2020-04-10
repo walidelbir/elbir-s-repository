@@ -1,0 +1,32 @@
+%message {
+text-align: center;
+background-color: lightyellow;
+
+}
+
+
+  h1 {
+  @extend %message;
+  color:#884690;
+}
+
+  .container {
+ @extend %message;
+ font-weight:bold ;
+ padding-top: 30px;
+
+}
+ol {
+  text-align: center;
+  padding-top: 50px;
+  li:hover{
+    background-color:lightgreen;
+  }
+}
+div {
+  img {
+    margin-left: 25%;
+    width: 50%;
+    height: 500px;
+  }
+}
